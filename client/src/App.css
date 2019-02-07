@@ -1,0 +1,17 @@
+.App {
+  text-align: center;
+  background: url("./assets/images/HackMerced.png");
+  background-repeat: no-repeat;
+  background-position: center 10px;
+}
+
+.App-header {
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  background-image: url("./assets/images/raccoon.png");
+  background-position: bottom right;
+  background-repeat: no-repeat;
+}
