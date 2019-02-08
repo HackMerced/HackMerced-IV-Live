@@ -11,7 +11,15 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-  background-image: url("./assets/images/raccoon.png");
-  background-position: bottom right;
-  background-repeat: no-repeat;
+  position: relative;
+  /* background-image: url("./assets/images/raccoon.png");
+  background-position: bottom -120px right -170px;
+  background-repeat: no-repeat; */
+  overflow: hidden;
+}
+
+.Raccoon {
+  position: absolute;
+  bottom: -110px;
+  right: -160px;
 }
