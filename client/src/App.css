@@ -23,3 +23,23 @@
   bottom: -110px;
   right: -160px;
 }
+
+.menu{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menuList{
+  display: inline;
+  padding-right: 20px;
+}
+
+.tempLink{
+  color: black;
+  font-weight: bold;
+}
+
+.tempLink:hover{
+  color: white;
+}

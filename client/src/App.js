@@ -1,16 +1,34 @@
 import React, { Component } from 'react';
+import {
+  BrowserRouter as Router,
+  Route
+} from 'react-router-dom';
+
 import './App.css';
 import Raccoon from './assets/images/raccoon.png';
 import Tracks from './components/Tracks';
+
+//IMPORT COMPONENTS
+import Contact from "./components/Contact";
+import Prizes from "./components/Prizes";
+import Workshops from "./components/Workshops";
+import NavBar from "./components/NavBar";
+
 class App extends Component {
   render() {
     return (
-      <div className="App">
-          <header className="App-header">
-            <Tracks />
-            <img src={Raccoon} alt="Raccoon" className="Raccoon"/>
-          </header>
-      </div>
+      <Router>
+          <div className="App">
+              <header className="App-header">
+                <Route path = "/" component = {NavBar}/ >
+                <Route path = "/ContactUs" component = {Contact}/>
+                <Route path = "/Prizes" component = {Prizes}/>
+                <Route path = "/Workshops" component = {Workshops}/>
+                <Tracks />
+                <img src={Raccoon} alt="Raccoon" className="Raccoon"/>
+              </header>
+          </div>
+      </Router>
     );
   }
 }
