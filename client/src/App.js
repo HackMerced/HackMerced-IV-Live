@@ -24,7 +24,6 @@ class App extends Component {
                 <Route path = "/ContactUs" component = {Contact}/>
                 <Route path = "/Prizes" component = {Prizes}/>
                 <Route path = "/Workshops" component = {Workshops}/>
-                <Tracks />
                 <img src={Raccoon} alt="Raccoon" className="Raccoon"/>
               </header>
           </div>
