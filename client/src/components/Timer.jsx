@@ -10,16 +10,17 @@ export default class Timer extends Component {
   }
 
   getNewTimerState() {
-    let diffMs = (new Date('March 1, 2019 18:00:00 PST') - new Date()); // milliseconds between now & Christmas
+    let diffMs = (new Date('March 3, 2019 09:00:00 PST') - new Date()); // milliseconds between now & Christmas
+
     let diffDays = Math.floor(diffMs / 86400000); // days
-    let diffHrs = Math.floor((diffMs % 86400000) / 3600000); // hours
+    let diffHrs = Math.floor(((diffMs % 86400000) / 3600000) + (diffDays*24)); // hours
     let diffMins = Math.round(((diffMs % 86400000) % 3600000) / 60000); // minutes
     let diffSecs = Math.round(((diffMs % 86400000) % 3600000) % 60000 / 1000); // seconds
     return {
       seconds: diffSecs, // responsible for the seconds
       minutes: diffMins, // responsible for the minutes
       hours: diffHrs, // responsible for the hours      
-      days: diffDays, // responsible for the days      
+      // days: diffDays, // responsible for the days      
     };
   }
 
@@ -32,24 +33,24 @@ export default class Timer extends Component {
     this.interval = setInterval(this.tick, 1000);
   }
 
-  componentWillUnmount() {
-    // clear the timer
-    clearInterval(this.interval);
-  }
-
   render() {    
 
     // If it is within 36 hours of the hackathon show the countdown. To enable the 36 hour check, replace 'true' with 'showTimer'
-    const showTimer = (new Date() < new Date('February 26, 2019 18:00:00 PST')) ? false : true;
-    if(true)
+    const startTimer = (new Date() < new Date('March 1, 2019 21:00:00 PST')) ? false : true;
+    if(startTimer)
       return (
-        <div>
-          <div><span>{this.state.days}</span><br/>DAYS</div>
+        <div className="Timer">
           <div><span>{this.state.hours}</span><br/>HRS</div>
           <div><span>{this.state.minutes}</span><br/>MINS</div>
           <div><span>{this.state.seconds}</span><br/>SECS</div>
         </div>
       );
-    return (<div></div>);
+    return (
+      <div className="Timer">
+        <div><span>{'36'}</span><br/>HRS</div>
+        <div><span>{'00'}</span><br/>MINS</div>
+        <div><span>{'00'}</span><br/>SECS</div>
+      </div>
+    );
   }
 }
