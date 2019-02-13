@@ -32,6 +32,11 @@ export default class Timer extends Component {
     this.interval = setInterval(this.tick, 1000);
   }
 
+  componentWillUnmount() {
+    // clear the timer
+    clearInterval(this.interval);
+  }
+
   render() {    
 
     // If it is within 36 hours of the hackathon show the countdown. To enable the 36 hour check, replace 'true' with 'showTimer'
