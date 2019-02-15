@@ -6,11 +6,15 @@ import {
 
 import './App.css';
 import Raccoon from './assets/images/raccoon.png';
-import Tracks from './components/Tracks';
 
 //IMPORT COMPONENTS
 import Contact from "./components/Contact";
+import Hardware from "./components/Hardware";
+import Map from "./components/Map";
 import Prizes from "./components/Prizes";
+import Schedule from "./components/Schedule";
+import Submission from "./components/Submission";
+import Tracks from "./components/Tracks";
 import Workshops from "./components/Workshops";
 import NavBar from "./components/NavBar";
 import Timer from "./components/Timer";
@@ -19,16 +23,14 @@ class App extends Component {
   render() {
     return (
       <Router>
-          <div className="App">
-              <header className="App-header">
-                <Route path = "/" component = {NavBar}/ >
-                <Route path = "/ContactUs" component = {Contact}/>
-                <Route path = "/Prizes" component = {Prizes}/>
-                <Route path = "/Workshops" component = {Workshops}/>
-                <Timer/>
-                <img src={Raccoon} alt="Raccoon" className="Raccoon"/>
-              </header>
-          </div>
+        <div className="App">
+          <NavBar />
+          <header className="App-header">
+            <Route path = "/Schedule" component = {Schedule}/>
+            <Route path = "/Tracks" component = {Tracks}/>
+            <img src={Raccoon} alt="Raccoon" className="Raccoon"/>
+          </header>
+        </div>
       </Router>
     );
   }

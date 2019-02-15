@@ -1,0 +1,14 @@
+.Timer {
+    position: absolute;
+    background-color: rgb(2,0,36);
+    margin: 10px;
+    padding: 5px;
+    border-radius: 15px;
+    color: #fff;
+}
+
+.time {
+    display: inline-block;
+    margin: 10px;
+}
+

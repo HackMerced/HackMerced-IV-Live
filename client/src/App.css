@@ -1,29 +1,27 @@
 .App {
   text-align: center;
-  background: url("./assets/images/HackMerced.png");
-  background-repeat: no-repeat;
-  background-position: center 10px;
 }
 
 .App-header {
   min-height: 100vh;
-  align-items: center;
-  justify-content: center;
+  /* align-items: center;
+  justify-content: center; */
   font-size: calc(10px + 2vmin);
   color: white;
   position: relative;
-  /* background-image: url("./assets/images/raccoon.png");
-  background-position: bottom -120px right -170px;
-  background-repeat: no-repeat; */
   overflow: hidden;
+  padding: 0 50px;
 }
 
+.App-header img {
+  width: 300px;
+}
+/*
 .App-header > div {
   display: flex;
   align-items: center;
   justify-content: center;
   position: relative;
-  top: 500px;
 }
 
 .App-header > div > div {
@@ -36,30 +34,10 @@
 
 .App-header > div > div > span {
   font-size: 2.5rem;
-}
+} */
 
 .Raccoon {
   position: absolute;
-  bottom: -110px;
-  right: -160px;
-}
-
-.menu{
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
-.menuList{
-  display: inline;
-  padding-right: 20px;
-}
-
-.tempLink{
-  color: black;
-  font-weight: bold;
-}
-
-.tempLink:hover{
-  color: white;
+  bottom: -80px;
+  right: -155px;
 }
