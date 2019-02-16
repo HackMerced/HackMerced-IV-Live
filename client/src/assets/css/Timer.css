@@ -1,14 +1,24 @@
 .Timer {
-    position: absolute;
     background-color: rgb(2,0,36);
-    margin: 10px;
     padding: 5px;
+    position: absolute;
+    margin: 20px auto;
     border-radius: 15px;
-    color: #fff;
+    border: 4px solid #007d9e;
+    color: #007d9e; 
+    width: 300px;
+    left: 0;
+    right: 0;
+    text-align: center;
 }
 
 .time {
     display: inline-block;
     margin: 10px;
+    font-size: 24px;
 }
 
+.Timer span {
+    font-size: 50px;
+    color: #fff;
+}

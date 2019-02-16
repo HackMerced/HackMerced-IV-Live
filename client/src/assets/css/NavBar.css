@@ -1,3 +1,10 @@
+.menu p {
+  background: #020024;
+  font-size: 0.7em;
+  color: #D7AA27;
+  margin: 5px 0;
+}
+
 /* Position and sizing of burger button */
 .bm-burger-button {
     position: fixed;

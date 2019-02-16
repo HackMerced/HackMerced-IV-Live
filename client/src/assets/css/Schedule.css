@@ -1,7 +1,8 @@
 .Schedule {
-  width: inherit;
+  width: 80vw;
   position: relative;
-  margin-top: 100px; 
+  display: flex;
+  align-items: center
 }
 
 .Schedule p {
@@ -10,9 +11,29 @@
   margin: 10px;
 }
 
+table {
+  border-radius: 10px;
+  width: 80vw;
+  margin: 0 auto 20px auto;
+}
+
+table caption {
+  text-align: center;
+  font-size: 28px;
+}
+
 td {
   text-align: left;
-  border: 4px solid #000;
+  border-bottom: 2px solid #fff;
+  padding: 10px;
+}
+
+.hour {
+  width: 120px;
+}
+
+.event {
+  width: 300px;
 }
 
 .hour p, .event p {
@@ -22,13 +43,7 @@ td {
 
 .full-schedule {
   overflow-y: scroll;
-  height: 800px;
-}
-
-.Schedule table {
-  width: 1500px;
-  margin: 0 auto;
-  border: 4px solid #020024;
+  height:75vh;
 }
 
 @media screen and (max-width: 1200px) {

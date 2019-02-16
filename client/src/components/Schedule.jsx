@@ -7,7 +7,7 @@ class Schedule extends Component {
     return (
       <div className="Schedule">
         <div className="full-schedule">
-                <table>
+                <table cellspacing="0">
                 <caption>
                     <h4>Friday (March 1st)</h4>
                 </caption>
@@ -42,7 +42,7 @@ class Schedule extends Component {
                         <p>Opening Ceremony</p>
                     </td>
                     <td className="info">
-                        <p>Meet HackMerced's founders, our Sponsors, and hear information about our tracks and prizes!</p>
+                        <p>Hear from HackMerced's founder, our sponsors, and info about our tracks and prizes!</p>
                     </td>
                     </tr>
                     <tr>
@@ -67,7 +67,10 @@ class Schedule extends Component {
                         <p>The countdown start now, good luck and start hacking!</p>
                     </td>
                     </tr>
-                </tbody>
+                    </tbody>
+                    </table>
+                    <table cellspacing="0">
+
                 <caption>
                     <h4>Saturday (March 2nd)</h4>
                 </caption>
@@ -138,7 +141,9 @@ class Schedule extends Component {
                         <p>Compete with others by stacking cups!</p>
                     </td>
                     </tr>
-                </tbody>
+                    </tbody>
+                    </table>
+                    <table cellspacing="0">
                 <caption>
                     <h4>Sunday (March 3rd)</h4>
                 </caption>
