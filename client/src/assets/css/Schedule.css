@@ -1,0 +1,51 @@
+.Schedule {
+  width: 80vw;
+  position: relative;
+  display: flex;
+  align-items: center
+}
+
+.Schedule p {
+  font-size: 20px;
+  text-align: left;
+  margin: 10px;
+}
+
+table {
+  border-radius: 10px;
+  width: 80vw;
+  margin-bottom: 20px;
+}
+
+table caption {
+  text-align: center;
+  font-size: 28px;
+}
+
+td {
+  text-align: left;
+  border-bottom: 2px solid #fff;
+  padding: 10px;
+}
+
+.hour {
+  width: 120px;
+}
+
+.event {
+  width: 300px;
+}
+
+.hour p, .event p {
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.full-schedule {
+  overflow-y: scroll;
+  height:75vh;
+}
+
+@media screen and (max-width: 1200px) {
+
+}

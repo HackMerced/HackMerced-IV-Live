@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import "../assets/css/Timer.css";
 
 export default class Timer extends Component {
 
@@ -16,6 +17,17 @@ export default class Timer extends Component {
     let diffHrs = Math.floor(((diffMs % 86400000) / 3600000) + (diffDays*24)); // hours
     let diffMins = Math.round(((diffMs % 86400000) % 3600000) / 60000); // minutes
     let diffSecs = Math.round(((diffMs % 86400000) % 3600000) % 60000 / 1000); // seconds
+
+    if(diffSecs < 0) {
+      diffSecs = 0;
+    }
+    if(diffMins < 0) {
+      diffMins = 0;
+    }
+    if(diffHrs < 0) {
+      diffHrs = 0;
+    }
+
     return {
       seconds: diffSecs, // responsible for the seconds
       minutes: diffMins, // responsible for the minutes
@@ -37,19 +49,21 @@ export default class Timer extends Component {
 
     // If it is within 36 hours of the hackathon show the countdown. To enable the 36 hour check, replace 'true' with 'showTimer'
     const startTimer = (new Date() < new Date('March 1, 2019 21:00:00 PST')) ? false : true;
-    if(startTimer)
+
+    if(startTimer) 
       return (
-        <div className="Timer">
-          <div><span>{this.state.hours}</span><br/>HRS</div>
-          <div><span>{this.state.minutes}</span><br/>MINS</div>
-          <div><span>{this.state.seconds}</span><br/>SECS</div>
+        <div className="Timer transparent">
+          <div className="time"><span>{this.state.hours}</span><br/>HRS</div>
+          <div className="time"><span>{this.state.minutes}</span><br/>MINS</div>
+          <div className="time"><span>{this.state.seconds}</span><br/>SECS</div>
         </div>
       );
+      
     return (
       <div className="Timer">
-        <div><span>{'36'}</span><br/>HRS</div>
-        <div><span>{'00'}</span><br/>MINS</div>
-        <div><span>{'00'}</span><br/>SECS</div>
+        <div className="time"><span>{'36'}</span><br/>HRS</div>
+        <div className="time"><span>{'0'}</span><br/>MINS</div>
+        <div className="time"><span>{'0'}</span><br/>SECS</div>
       </div>
     );
   }
