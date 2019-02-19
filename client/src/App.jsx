@@ -5,7 +5,6 @@ import {
 } from 'react-router-dom';
 
 import './App.css';
-import Raccoon from './assets/images/Raccoon.png';
 
 //IMPORT COMPONENTS
 import Contact from "./components/Contact";
@@ -18,6 +17,7 @@ import Tracks from "./components/Tracks";
 import NavBar from "./components/NavBar";
 import Timer from "./components/Timer";
 import API from "./components/API";
+import Raccoons from "./components/Raccoons";
 
 class App extends Component {
   render() {
@@ -26,6 +26,7 @@ class App extends Component {
         <div className="App">
           <NavBar />
           <Timer />
+          <Raccoons />
           <header className="App-header">
             <Route exact path = "/" component = {Schedule}/>
             <Route path = "/Map" component = {MapUCM}/>
@@ -35,7 +36,6 @@ class App extends Component {
             <Route path = "/Hardware" component = {Hardware}/>
             <Route path = "/Submission" component = {Submission}/>
             <Route path = "/Contact" component = {Contact}/>
-            <img src={Raccoon} alt="Raccoon" className="Raccoon"/>
           </header>
         </div>
       </Router>

@@ -1,8 +1,7 @@
 .Schedule {
-  width: 80vw;
+  width: inherit;
   position: relative;
-  display: flex;
-  align-items: center
+ 
 }
 
 .Schedule p {
@@ -43,7 +42,7 @@ td {
 
 .full-schedule {
   overflow-y: scroll;
-  height:75vh;
+  height:80vh;
 }
 
 @media screen and (max-width: 1200px) {

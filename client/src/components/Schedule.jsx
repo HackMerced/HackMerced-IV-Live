@@ -7,7 +7,7 @@ class Schedule extends Component {
     return (
       <div className="Schedule">
         <div className="full-schedule">
-                <table cellspacing="0">
+                <table cellSpacing="0">
                 <caption>
                     <h4>Friday (March 1st)</h4>
                 </caption>
@@ -69,7 +69,7 @@ class Schedule extends Component {
                     </tr>
                     </tbody>
                     </table>
-                    <table cellspacing="0">
+                    <table cellSpacing="0">
 
                 <caption>
                     <h4>Saturday (March 2nd)</h4>
@@ -143,7 +143,7 @@ class Schedule extends Component {
                     </tr>
                     </tbody>
                     </table>
-                    <table cellspacing="0">
+                    <table cellSpacing="0">
                 <caption>
                     <h4>Sunday (March 3rd)</h4>
                 </caption>
