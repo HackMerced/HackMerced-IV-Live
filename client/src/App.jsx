@@ -5,7 +5,7 @@ import {
 } from 'react-router-dom';
 
 import './App.css';
-import Raccoon from './assets/images/raccoon.png';
+import Raccoon from './assets/images/Raccoon.png';
 
 //IMPORT COMPONENTS
 import Contact from "./components/Contact";
@@ -27,8 +27,7 @@ class App extends Component {
           <NavBar />
           <Timer />
           <header className="App-header">
-            <Route path = "/" />
-            <Route path = "/Schedule" component = {Schedule}/>
+            <Route exact path = "/" component = {Schedule}/>
             <Route path = "/Map" component = {MapUCM}/>
             <Route path = "/Tracks" component = {Tracks}/>
             <Route path = "/Prizes" component = {Prizes}/>
