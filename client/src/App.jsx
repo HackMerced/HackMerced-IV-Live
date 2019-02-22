@@ -16,7 +16,6 @@ import Submission from "./components/Submission";
 import Tracks from "./components/Tracks";
 import NavBar from "./components/NavBar";
 import Timer from "./components/Timer";
-import API from "./components/API";
 import Raccoons from "./components/Raccoons";
 
 class App extends Component {
@@ -24,19 +23,20 @@ class App extends Component {
     return (
       <Router>
         <div className="App">
-          <NavBar />
-          <Timer />
+          <div className="App-header">
+            <NavBar />
+            <Timer />
+          </div>
           <Raccoons />
-          <header className="App-header">
+          <div className="App-content">
             <Route exact path = "/" component = {Schedule}/>
             <Route path = "/Map" component = {MapUCM}/>
             <Route path = "/Tracks" component = {Tracks}/>
             <Route path = "/Prizes" component = {Prizes}/>
-            <Route path = "/API" component = {API}/>
             <Route path = "/Hardware" component = {Hardware}/>
             <Route path = "/Submission" component = {Submission}/>
             <Route path = "/Contact" component = {Contact}/>
-          </header>
+          </div>
         </div>
       </Router>
     );

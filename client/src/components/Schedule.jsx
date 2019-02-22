@@ -7,14 +7,14 @@ class Schedule extends Component {
     return (
       <div className="Schedule">
         <div className="full-schedule">
-                <table cellSpacing="0">
+            <table cellSpacing="0">
                 <caption>
                     <h4>Friday (March 1st)</h4>
                 </caption>
                 <tbody>
                     <tr>
                     <td className="hour">
-                        <p>6pm</p>
+                        <p>6 pm</p>
                     </td>
                     <td className="event">
                         <p>Check-in Starts</p>
@@ -25,7 +25,7 @@ class Schedule extends Component {
                     </tr>
                     <tr>
                     <td className="hour">
-                        <p>7pm</p>
+                        <p>7 pm</p>
                     </td>
                     <td className="event">
                         <p>Dinner</p>
@@ -36,7 +36,7 @@ class Schedule extends Component {
                     </tr>
                     <tr>
                     <td className="hour">
-                        <p>8pm</p>
+                        <p>8 pm</p>
                     </td>
                     <td className="event">
                         <p>Opening Ceremony</p>
@@ -47,7 +47,7 @@ class Schedule extends Component {
                     </tr>
                     <tr>
                     <td className="hour">
-                        <p>9pm</p>
+                        <p>9 pm</p>
                     </td>
                     <td className="event">
                         <p>Team Mixer</p>
@@ -58,7 +58,7 @@ class Schedule extends Component {
                     </tr>
                     <tr>
                     <td className="hour">
-                        <p>9pm</p>
+                        <p>9 pm</p>
                     </td>
                     <td className="event">
                         <p>Hacking Begins</p>
@@ -77,7 +77,7 @@ class Schedule extends Component {
                 <tbody>
                     <tr>
                     <td className="hour">
-                        <p>12am</p>
+                        <p>12 am</p>
                     </td>
                     <td className="event">
                         <p>Midnight Snack</p>
@@ -88,7 +88,7 @@ class Schedule extends Component {
                     </tr>
                     <tr>
                     <td className="hour">
-                        <p>7am</p>
+                        <p>7 am</p>
                     </td>
                     <td className="event">
                         <p>Breakfast</p>
@@ -99,7 +99,7 @@ class Schedule extends Component {
                     </tr>
                     <tr>
                     <td className="hour">
-                        <p>9am</p>
+                        <p>9 am</p>
                     </td>
                     <td className="event">
                         <p>SolidWorks Workshop</p>
@@ -110,7 +110,7 @@ class Schedule extends Component {
                     </tr>
                     <tr>
                     <td className="hour">
-                        <p>12pm</p>
+                        <p>12 pm</p>
                     </td>
                     <td className="event">
                         <p>Lunch</p>
@@ -121,7 +121,7 @@ class Schedule extends Component {
                     </tr>
                     <tr>
                     <td className="hour">
-                        <p>6pm</p>
+                        <p>6 pm</p>
                     </td>
                     <td className="event">
                         <p>Dinner</p>
@@ -132,7 +132,7 @@ class Schedule extends Component {
                     </tr>
                     <tr>
                     <td className="hour">
-                        <p>8pm</p>
+                        <p>8 pm</p>
                     </td>
                     <td className="event">
                         <p>MLH Cupstacking</p>
@@ -150,7 +150,7 @@ class Schedule extends Component {
                 <tbody>
                     <tr>
                     <td className="hour">
-                        <p>12am</p>
+                        <p>12 am</p>
                     </td>
                     <td className="event">
                         <p>Midnight Snack</p>
@@ -161,7 +161,7 @@ class Schedule extends Component {
                     </tr>
                     <tr>
                     <td className="hour">
-                        <p>8am</p>
+                        <p>8 am</p>
                     </td>
                     <td className="event">
                         <p>Project Submission</p>
@@ -172,7 +172,7 @@ class Schedule extends Component {
                     </tr>
                     <tr>
                     <td className="hour">
-                        <p>9am</p>
+                        <p>9 am</p>
                     </td>
                     <td className="event">
                         <p>Hacking Ends</p>
@@ -183,7 +183,7 @@ class Schedule extends Component {
                     </tr>
                     <tr>
                     <td className="hour">
-                        <p>9am</p>
+                        <p>9 am</p>
                     </td>
                     <td className="event">
                         <p>Breakfast</p>
@@ -194,7 +194,7 @@ class Schedule extends Component {
                     </tr>
                     <tr>
                     <td className="hour">
-                        <p>10:30am</p>
+                        <p>10:30 am</p>
                     </td>
                     <td className="event">
                         <p>Judging</p>
@@ -205,7 +205,7 @@ class Schedule extends Component {
                     </tr>
                     <tr>
                     <td className="hour">
-                        <p>12pm</p>
+                        <p>12 pm</p>
                     </td>
                     <td className="event">
                         <p>Lunch</p>
@@ -216,7 +216,7 @@ class Schedule extends Component {
                     </tr>
                     <tr>
                     <td className="hour">
-                        <p>1pm</p>
+                        <p>1 pm</p>
                     </td>
                     <td className="event">
                         <p>Closing Ceremony</p>

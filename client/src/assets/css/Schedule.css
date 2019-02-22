@@ -1,7 +1,8 @@
 .Schedule {
-  width: inherit;
   position: relative;
- 
+  overflow-y: scroll;
+  height: 100vh;
+  padding: 0 20px;
 }
 
 .Schedule p {
@@ -11,40 +12,55 @@
 }
 
 table {
-  border-radius: 10px;
-  width: 80vw;
   margin-bottom: 20px;
+  width: 60%;
+  table-layout: fixed;
+  margin: 0 auto;
 }
 
 table caption {
   text-align: center;
-  font-size: 28px;
+  font-size: 2em;
 }
 
 td {
   text-align: left;
-  border-bottom: 2px solid #fff;
   padding: 10px;
 }
 
 .hour {
-  width: 120px;
+  width: 20%;
 }
 
 .event {
-  width: 300px;
+  width: 30%;
+}
+
+.info {
+  width: 50%;
+}
+
+.hour p {
+  text-align: right;
 }
 
 .hour p, .event p {
   font-weight: bold;
   font-size: 22px;
 }
-
-.full-schedule {
-  overflow-y: scroll;
-  height:80vh;
+@media screen and (max-width: 1000px) {
+  table {
+    width: 100%;
+  }
+  .Schedule p {
+    font-size: 18px;
+  }
+  .hour p, .event p {
+    font-size: 20px;
+  }
 }
-
-@media screen and (max-width: 1200px) {
-
+@media screen and (max-width: 500px) {
+  .Schedule {
+    padding: 0;
+  }
 }

@@ -58,7 +58,7 @@ export default class Raccoons extends Component {
     );
  
     return (
-      <div>
+      <div className="raccoon-family">
         <RaccoonFamily reveal={this.state.showRaccoons} />
         {raccoon_button}
       </div>
