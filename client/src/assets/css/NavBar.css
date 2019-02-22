@@ -48,6 +48,7 @@
   /* General sidebar styles */
   .bm-menu {
     background: #020024;
+    height: inherit;
     width: 300px;
     font-size: 2em;
     outline: none;
