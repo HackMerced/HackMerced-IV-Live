@@ -1,0 +1,11 @@
+.Tracks {
+    display: flex;
+}
+
+.Tracks > div {
+    margin: 0 4rem 0 0;
+}
+
+.Tracks > div:last-of-type {
+    margin: 0;
+}
