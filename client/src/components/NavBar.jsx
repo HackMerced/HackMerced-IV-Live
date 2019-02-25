@@ -12,6 +12,7 @@ class NavBar extends Component {
                 <Menu className = "menu">
                     <img src={HM} alt="HackMerced" className="HackMerced" />
                     <p>This is it, Good Luck!</p>
+                    <p>Wi-Fi: UCM-Guest</p>
                     <Link className = "menu-item" to = "/">Schedule</Link>
                     <Link className = "menu-item" to = "/Map">Map</Link>
                     <Link className = "menu-item" to = "/Tracks">Tracks</Link>
