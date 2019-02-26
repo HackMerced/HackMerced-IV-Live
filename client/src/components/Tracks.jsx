@@ -7,16 +7,25 @@ export default class Tracks extends React.Component {
     constructor(props) {
         super(props); 
         this.state = {
-            iconSize: 128
+            iconSize: 50
         };
     }
 
     render() {
         return ( 
             <div className="Tracks">
-                <div><Icon size={this.state.iconSize} icon={globe} /><br/><p>Social Good</p></div>
-                <div><Icon size={this.state.iconSize} icon={spaceShuttle} /><br/><p>Entrepreneurship</p></div>
-                <div><Icon size={this.state.iconSize} icon={tree} /><br/><p>Agtech</p></div>
+                <div>
+                    <Icon className="TrackIcon" size={this.state.iconSize} icon={globe} /><span>Social Good</span>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisis venenatis ante, vel pellentesque sapien aliquet id. Praesent porta et purus eget imperdiet. Nulla augue lorem, sagittis id lorem bibendum, elementum sagittis velit. Duis et porttitor eros. Aenean ipsum nibh, malesuada bibendum congue consectetur, commodo id magna. Cras tincidunt scelerisque massa id luctus. Cras suscipit in diam non congue. Nam ut urna at nisl efficitur varius sit amet sed purus. Nullam vel orci turpis. Praesent mattis, arcu sed condimentum tempus, nisl tortor pretium ligula, dignissim ultrices lorem eros vel ante. Ut in tempor est.</p>
+                </div>
+                <div>
+                    <Icon className="TrackIcon" size={this.state.iconSize} icon={spaceShuttle} /><span>Entrepreneurship</span>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisis venenatis ante, vel pellentesque sapien aliquet id. Praesent porta et purus eget imperdiet. Nulla augue lorem, sagittis id lorem bibendum, elementum sagittis velit. Duis et porttitor eros. Aenean ipsum nibh, malesuada bibendum congue consectetur, commodo id magna. Cras tincidunt scelerisque massa id luctus. Cras suscipit in diam non congue. Nam ut urna at nisl efficitur varius sit amet sed purus. Nullam vel orci turpis. Praesent mattis, arcu sed condimentum tempus, nisl tortor pretium ligula, dignissim ultrices lorem eros vel ante. Ut in tempor est.</p>
+                </div>
+                <div>
+                    <Icon className="TrackIcon" size={this.state.iconSize} icon={tree} /><span>Agtech</span>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisis venenatis ante, vel pellentesque sapien aliquet id. Praesent porta et purus eget imperdiet. Nulla augue lorem, sagittis id lorem bibendum, elementum sagittis velit. Duis et porttitor eros. Aenean ipsum nibh, malesuada bibendum congue consectetur, commodo id magna. Cras tincidunt scelerisque massa id luctus. Cras suscipit in diam non congue. Nam ut urna at nisl efficitur varius sit amet sed purus. Nullam vel orci turpis. Praesent mattis, arcu sed condimentum tempus, nisl tortor pretium ligula, dignissim ultrices lorem eros vel ante. Ut in tempor est.</p>
+                </div>
             </div>
         );
     }
