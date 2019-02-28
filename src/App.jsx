@@ -30,12 +30,11 @@ class App extends Component {
           <Raccoons />
           <div className="App-content">
             <Route exact path = "/" component = {Schedule}/>
-            <Route path = "/Map" component = {MapUCM}/>
+            {/*<Route path = "/Map" component = {MapUCM}/>
             <Route path = "/Tracks" component = {Tracks}/>
-            <Route path = "/Prizes" component = {Prizes}/>
             <Route path = "/Hardware" component = {Hardware}/>
             <Route path = "/Submission" component = {Submission}/>
-            <Route path = "/Contact" component = {Contact}/>
+            <Route path = "/Contact" component = {Contact}/>*/}
           </div>
         </div>
       </Router>

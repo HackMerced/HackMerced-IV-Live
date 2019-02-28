@@ -1,0 +1,7 @@
+.mapboxgl-canvas {
+  position: relative !important;
+}
+
+.location {
+  color: black
+}
