@@ -10,8 +10,8 @@
     position: fixed;
     width: 36px;
     height: 30px;
-    left: 36px;
-    top: 36px;
+    left: 26px;
+    top: 26px;
   }
   
   /* Color/shape of burger icon bars */
@@ -95,4 +95,11 @@
 
 *:focus {
   outline: none;
+}
+@media screen and (max-width: 500px) {
+  .bm-burger-button {
+    position: fixed;
+    width: 26px;
+    height: 20px;
+  }
 }

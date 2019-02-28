@@ -20,3 +20,17 @@
     font-size: 50px;
     color: #fff;
 }
+
+@media screen and (max-width: 500px) {
+    .Timer {
+        width: 180px;
+    }
+    
+    .time {
+        font-size: 1em;
+    }
+    
+    .Timer span {
+        font-size: 30px;
+    }
+}

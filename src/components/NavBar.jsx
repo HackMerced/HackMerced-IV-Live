@@ -16,7 +16,6 @@ class NavBar extends Component {
                     <Link className = "menu-item" to = "/">Schedule</Link>
                     {/*<Link className = "menu-item" to = "/Map">Map</Link>
                     <Link className = "menu-item" to = "/Tracks">Tracks</Link>
-                    <Link className = "menu-item" to = "/Prizes">Prizes</Link>
                     <Link className = "menu-item" to = "/Hardware">Hardware</Link>
                     <Link className = "menu-item" to = "/Submission">Submission</Link>
                     <Link className = "menu-item" to = "/Contact">Contact</Link>*/}

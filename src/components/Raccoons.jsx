@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Raccoon from '../assets/images/raccoon.png';
+import Raccoon from '../assets/images/Raccoon.png';
 import Raccoon1 from '../assets/images/Raccoon1.png';
 import Raccoon2 from '../assets/images/Raccoon2.png';
 import Raccoon3 from '../assets/images/Raccoon3.png';
