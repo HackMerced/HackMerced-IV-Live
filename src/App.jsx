@@ -10,7 +10,6 @@ import './App.css';
 import Contact from "./components/Contact";
 import Hardware from "./components/Hardware";
 import MapUCM from "./components/Map";
-import Prizes from "./components/Prizes";
 import Schedule from "./components/Schedule";
 import Submission from "./components/Submission";
 import Tracks from "./components/Tracks";
@@ -30,9 +29,9 @@ class App extends Component {
           <Raccoons />
           <div className="App-content">
             <Route exact path = "/" component = {Schedule}/>
-            {/*<Route path = "/Map" component = {MapUCM}/>
+            <Route path = "/Map" component = {MapUCM}/>
             <Route path = "/Tracks" component = {Tracks}/>
-            <Route path = "/Hardware" component = {Hardware}/>
+            {/*<Route path = "/Hardware" component = {Hardware}/>
             <Route path = "/Submission" component = {Submission}/>
             <Route path = "/Contact" component = {Contact}/>*/}
           </div>

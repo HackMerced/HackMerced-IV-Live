@@ -10,8 +10,7 @@
 }
 
 .TracksContainer > h3 {
-    width: 70%;
-    text-align: left;
+    text-align: center;
     margin: 1rem auto .5rem auto;
 }
 
@@ -19,25 +18,21 @@
     margin: 2rem auto .5rem auto;
 }
 
-
 /* Main Tracks */
 
 .Tracks {
-    display: flex;
-    width: 70%;
-    margin:auto;
+    justify-content: center;
+    margin:0 auto;
 }
 
 .Tracks > div {
+    display: inline-block;
     margin: 0 2rem 0 0;
-    width: 33.333%;
+    width: 250px;
     border: 1px solid white;
     padding: 2rem 1.5rem .5rem 1.5rem;
     border-radius: 2px;    
-}
-
-.Tracks > div:last-of-type {
-    margin: 0;
+    margin-bottom: 20px;
 }
 
 .Tracks > div > span {
@@ -57,24 +52,22 @@
 /* Subcategories */
 
 .Subcategories {
-    display: flex;
-    justify-content: space-between;
-    width: 70%;
+    justify-content: center;
     margin:auto;
     flex-wrap: wrap;
 }
 
 .Subcategories > div {
-    /* margin: 0 2rem 1rem 0; */
-    width: calc( 20% - 5rem );
+    display: inline-block;
+    margin: 0 2rem 1rem 0;
+    width: 180px;
     border: 1px solid white;
     padding: 2rem 1.5rem .5rem 1.5rem;
+    margin-bottom: 20px;
     border-radius: 2px;
 }
 
-.Subcategories > div:last-of-type {
-    margin: 0;
-}
+
 
 .Subcategories > div > span {
     font-size: 1.2rem;
@@ -107,4 +100,14 @@
     position: relative;
     bottom: 1px;
     margin: 0 .8rem 0 0;
+}
+
+@media screen and (max-width: 800px) {
+    .Tracks > div > span {
+        font-size: 1.5rem;
+    }
+    .Subcategories > div > span {
+        font-size: 0.8rem;
+        font-weight: bold;
+    }
 }

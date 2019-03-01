@@ -20,7 +20,7 @@ export default class Tracks extends React.Component {
                 <h3><i>Main Tracks</i></h3>
                 <div className="Tracks">
                     <div>
-                        <Icon className="TrackIcon" size={this.state.tracksIconSize} icon={globe} /><span>Social Good</span>
+                        <Icon className="TrackIcon" size={this.state.tracksIconSize} icon={globe} /><br /><span>Social Good</span>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisis venenatis ante, vel pellentesque sapien aliquet id. Praesent porta et purus eget imperdiet. Nulla augue lorem, sagittis id lorem bibendum, elementum sagittis velit. Duis et porttitor eros. Aenean ipsum nibh, malesuada bibendum congue consectetur, commodo id magna.</p>
                         <div className="Prizes">
                             <Icon className="TrophyIcon" size={this.state.trophyIconSize} icon={trophy} />
@@ -28,7 +28,7 @@ export default class Tracks extends React.Component {
                         </div>
                     </div>
                     <div>
-                        <Icon className="TrackIcon" size={this.state.tracksIconSize} icon={spaceShuttle} /><span>Entrepreneurship</span>
+                        <Icon className="TrackIcon" size={this.state.tracksIconSize} icon={spaceShuttle} /><br /><span>Entrepreneurship</span>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisis venenatis ante, vel pellentesque sapien aliquet id. Praesent porta et purus eget imperdiet. Nulla augue lorem, sagittis id lorem bibendum, elementum sagittis velit. Duis et porttitor eros. Aenean ipsum nibh, malesuada bibendum congue consectetur, commodo id magna.</p>
                         <div className="Prizes">
                             <Icon className="TrophyIcon" size={this.state.trophyIconSize} icon={trophy} />
@@ -36,7 +36,7 @@ export default class Tracks extends React.Component {
                         </div>
                     </div>
                     <div>
-                        <Icon className="TrackIcon" size={this.state.tracksIconSize} icon={tree} /><span>Agtech</span>
+                        <Icon className="TrackIcon" size={this.state.tracksIconSize} icon={tree} /><br /><span>Agtech</span>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisis venenatis ante, vel pellentesque sapien aliquet id. Praesent porta et purus eget imperdiet. Nulla augue lorem, sagittis id lorem bibendum, elementum sagittis velit. Duis et porttitor eros. Aenean ipsum nibh, malesuada bibendum congue consectetur, commodo id magna.</p>
                         <div className="Prizes">
                             <Icon className="TrophyIcon" size={this.state.trophyIconSize} icon={trophy} />
