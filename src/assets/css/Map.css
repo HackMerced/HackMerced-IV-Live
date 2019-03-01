@@ -5,3 +5,7 @@
 .location {
   color: black
 }
+
+.MapBox {
+  border: 8px solid #fff;
+}

@@ -7,18 +7,19 @@ const TOKEN = 'pk.eyJ1IjoiYWRhcmlhbiIsImEiOiJjam4zdDd1dTQwamthM3BxZ2p0dHRicjMyIn
 class Map extends Component {
   state = {
     viewport: {
-      width: 400,
-      height: 400,
+      width: 600,
+      height: 600,
       latitude: 37.365224,
       longitude: -120.425479,
-      zoom: 14.3
+      zoom: 14.5
     }
   };
 
   render() {
     return (
-      <div>
+      <div className="Map">
         <ReactMapGL
+          className="MapBox"
           {...this.state.viewport}
           mapboxApiAccessToken={TOKEN}
           onViewportChange={(viewport) => this.setState({viewport})}
