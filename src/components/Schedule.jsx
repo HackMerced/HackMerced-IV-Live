@@ -72,7 +72,7 @@ class Schedule extends Component {
                         <p>10:30 pm</p>
                     </td>
                     <td className="event">
-                        <p>Pitch Fest (SSB 130)</p>
+                        <p>Pitch Fest (SSB 110)</p>
                     </td>
                     <td className="info">
                         <p>Come learn how to modify and improve your project idea!</p>
@@ -102,7 +102,7 @@ class Schedule extends Component {
                         <p>1 am</p>
                     </td>
                     <td className="event">
-                        <p>AWS workshop (SSB 130)</p>
+                        <p>AWS workshop (SSB 110)</p>
                     </td>
                     <td className="info">
                         <p>Come learn how to build your own Alexa Skill!</p>
@@ -113,7 +113,7 @@ class Schedule extends Component {
                         <p>6 am</p>
                     </td>
                     <td className="event">
-                        <p>MongoDB Workshop (SSB 130)</p>
+                        <p>MongoDB Workshop (SSB 110)</p>
                     </td>
                     <td className="info">
                         <p>Come learn how to utilize MongoDB!</p>
@@ -135,7 +135,7 @@ class Schedule extends Component {
                         <p>9 am</p>
                     </td>
                     <td className="event">
-                        <p>SolidWorks Workshop (SSB 130)</p>
+                        <p>SolidWorks Workshop (SSB 110)</p>
                     </td>
                     <td className="info">
                         <p>Check out a workshop hosted by SAE!</p>
@@ -168,7 +168,7 @@ class Schedule extends Component {
                         <p>2 pm</p>
                     </td>
                     <td className="event">
-                        <p>React Native Workshop (SSB 130)</p>
+                        <p>React Native Workshop (SSB 110)</p>
                     </td>
                     <td className="info">
                         <p>Come learn how to make a mobile app with React Native!</p>
@@ -179,7 +179,7 @@ class Schedule extends Component {
                         <p>4 pm</p>
                     </td>
                     <td className="event">
-                        <p>Game Development Workshop (SSB 130)</p>
+                        <p>Game Development Workshop (SSB 110)</p>
                     </td>
                     <td className="info">
                         <p>Come learn how to make a game with unity and C# taught by members from UC Merced's Game Development Club!</p>
