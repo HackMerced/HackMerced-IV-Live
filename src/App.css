@@ -24,6 +24,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  -ms-overflow-style: none;
 }
 
 @media screen and (max-width: 500px) {
