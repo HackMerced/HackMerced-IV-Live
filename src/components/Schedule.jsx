@@ -67,6 +67,17 @@ class Schedule extends Component {
                         <p>The countdown start now, good luck and start hacking!</p>
                     </td>
                     </tr>
+                    <tr>
+                    <td className="hour">
+                        <p>10:30 pm</p>
+                    </td>
+                    <td className="event">
+                        <p>Pitch Fest (SSB 130)</p>
+                    </td>
+                    <td className="info">
+                        <p>Come learn how to modify and improve your project idea!</p>
+                    </td>
+                    </tr>
                     </tbody>
                     </table>
                     <table cellSpacing="0">
@@ -88,6 +99,28 @@ class Schedule extends Component {
                     </tr>
                     <tr>
                     <td className="hour">
+                        <p>1 am</p>
+                    </td>
+                    <td className="event">
+                        <p>AWS workshop (SSB 130)</p>
+                    </td>
+                    <td className="info">
+                        <p>Come learn how to build your own Alexa Skill!</p>
+                    </td>
+                    </tr>
+                    <tr>
+                    <td className="hour">
+                        <p>6 am</p>
+                    </td>
+                    <td className="event">
+                        <p>MongoDB Workshop (SSB 130)</p>
+                    </td>
+                    <td className="info">
+                        <p>Come learn how to utilize MongoDB!</p>
+                    </td>
+                    </tr>
+                    <tr>
+                    <td className="hour">
                         <p>7 am</p>
                     </td>
                     <td className="event">
@@ -102,7 +135,7 @@ class Schedule extends Component {
                         <p>9 am</p>
                     </td>
                     <td className="event">
-                        <p>SolidWorks Workshop</p>
+                        <p>SolidWorks Workshop (SSB 130)</p>
                     </td>
                     <td className="info">
                         <p>Hosted by SAE</p>
@@ -124,10 +157,10 @@ class Schedule extends Component {
                         <p>2 pm</p>
                     </td>
                     <td className="event">
-                        <p>Game Development Workshop</p>
+                        <p>React Native Workshop (SSB 130)</p>
                     </td>
                     <td className="info">
-                        <p>Come learn how to make a game with unity and C# taught by members from UC Merced's Game Development Club!</p>
+                        <p>Come learn how to make a mobile app with React Native!</p>
                     </td>
                     </tr>
                     <tr>
@@ -135,10 +168,10 @@ class Schedule extends Component {
                         <p>4 pm</p>
                     </td>
                     <td className="event">
-                        <p>React Native Workshop</p>
+                        <p>Game Development Workshop (SSB 130)</p>
                     </td>
                     <td className="info">
-                        <p>Come learn how to make a mobile app with React Native!</p>
+                        <p>Come learn how to make a game with unity and C# taught by members from UC Merced's Game Development Club!</p>
                     </td>
                     </tr>
                     <tr>
@@ -179,6 +212,17 @@ class Schedule extends Component {
                     </td>
                     <td className="info">
                         <p>Having the late-night munchies? Come by to get a snack!</p>
+                    </td>
+                    </tr>
+                    <tr>
+                    <td className="hour">
+                        <p>6 am</p>
+                    </td>
+                    <td className="event">
+                        <p>Project Deployment Workshop</p>
+                    </td>
+                    <td className="info">
+                        <p>Come learn how to deploy your project on Github, Heroku, or on a server!</p>
                     </td>
                     </tr>
                     <tr>
