@@ -12,7 +12,7 @@ import Hardware from "./components/Hardware";
 import MapUCM from "./components/Map";
 import Schedule from "./components/Schedule";
 import Submission from "./components/Submission";
-import Tracks from "./components/Tracks";
+import Prizes from "./components/Prizes";
 import NavBar from "./components/NavBar";
 import Timer from "./components/Timer";
 import Raccoons from "./components/Raccoons";
@@ -30,7 +30,7 @@ class App extends Component {
           <div className="App-content">
             <Route exact path = "/" component = {Schedule}/>
             <Route path = "/Map" component = {MapUCM}/>
-            <Route path = "/Tracks" component = {Tracks}/>
+            <Route path = "/Prizes" component = {Prizes}/>
             {/*<Route path = "/Hardware" component = {Hardware}/>
             <Route path = "/Submission" component = {Submission}/>
             <Route path = "/Contact" component = {Contact}/>*/}
