@@ -138,7 +138,7 @@ class Schedule extends Component {
                         <p>SolidWorks Workshop (SSB 130)</p>
                     </td>
                     <td className="info">
-                        <p>Hosted by SAE</p>
+                        <p>Check out a workshop hosted by SAE!</p>
                     </td>
                     </tr>
                     <tr>
@@ -150,6 +150,17 @@ class Schedule extends Component {
                     </td>
                     <td className="info">
                         <p>Come by for Lunch!</p>
+                    </td>
+                    </tr>
+                    <tr>
+                    <td className="hour">
+                        <p>12 pm</p>
+                    </td>
+                    <td className="event">
+                        <p>Gaming Room</p>
+                    </td>
+                    <td className="info">
+                        <p>Check out our game room hosted by UC Merced's Smash Bros Club!</p>
                     </td>
                     </tr>
                     <tr>
