@@ -121,6 +121,28 @@ class Schedule extends Component {
                     </tr>
                     <tr>
                     <td className="hour">
+                        <p>2 pm</p>
+                    </td>
+                    <td className="event">
+                        <p>Game Development Workshop</p>
+                    </td>
+                    <td className="info">
+                        <p>Come learn how to make a game with unity and C# taught by members from UC Merced's Game Development Club!</p>
+                    </td>
+                    </tr>
+                    <tr>
+                    <td className="hour">
+                        <p>4 pm</p>
+                    </td>
+                    <td className="event">
+                        <p>React Native Workshop</p>
+                    </td>
+                    <td className="info">
+                        <p>Come learn how to make a mobile app with React Native!</p>
+                    </td>
+                    </tr>
+                    <tr>
+                    <td className="hour">
                         <p>6 pm</p>
                     </td>
                     <td className="event">
